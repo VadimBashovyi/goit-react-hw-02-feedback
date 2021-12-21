@@ -32,7 +32,7 @@ class App extends Component {
 
   render() {
     const { good, neutral, bad } = this.state
-    let isTotal = this.countPositiveFeedbackPercentage()
+    let isTotal = good + neutral + bad
 
     return (
       <div>
