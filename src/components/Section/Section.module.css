@@ -1,0 +1,14 @@
+.section {
+  padding: 20px 40px;
+  margin-left: 200px;
+  background-color: rgba(55, 180, 76, 0.486);
+  width: 400px;
+  border-radius: 10px;
+  margin-bottom: 30px;
+}
+
+.title {
+  font-size: 25px;
+  font-weight: 600;
+  margin-bottom: 15px;
+}

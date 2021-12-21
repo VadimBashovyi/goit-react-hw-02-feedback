@@ -1,0 +1,29 @@
+.btn__section {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.btn {
+  margin-left: 10px;
+  display: block;
+  width: 80px;
+  text-transform: capitalize;
+  padding: 10px 10px;
+  background-color: rgb(117, 150, 211);
+  border-radius: 6px;
+  color: rgb(255, 255, 255);
+  box-shadow: rgb(12, 230, 219) 0.5px 0.5px 0.5px 0.5px;
+  border: 1px solid rgb(12, 230, 219);
+  cursor: pointer;
+  transition: background-color 300ms cubic-bezier(0.19, 1, 0.22, 1);
+}
+
+.btn:hover,
+.btn:focus {
+  background-color: rgb(145, 21, 161);
+}
+.list {
+  list-style-type: none;
+  align-items: center;
+}
